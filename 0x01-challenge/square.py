@@ -3,7 +3,7 @@
 """Comments"""
 
 
-class square():
+class Square():
 
     """Square"""
 
@@ -30,7 +30,7 @@ class square():
 
 if __name__ == "__main__":
 
-    s = square(width=3, height=3)
+    s = Square(width=3, height=3)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
