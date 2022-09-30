@@ -22,12 +22,12 @@ class Square():
 
     def __str__(self):
         """String"""
-        return "{}/{}".format(self.height, self.width)
+        return "{}/{}".format(self.width, self.height)
 
 
 if __name__ == "__main__":
-
-    s = Square()
+    """Commnets"""
+    s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.permiter_of_mySquare())
